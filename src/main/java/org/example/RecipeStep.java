@@ -11,8 +11,8 @@ public class RecipeStep {
     public RecipeStep(int stepID, int recipeID, int stepNumber, String instruction){
         this.stepID = stepID;
         this.recipeID = recipeID;
-        this.stepNumber = stepNumber;
-        this.instruction = instruction;
+        this.setStepNumber(stepNumber);
+        this.setInstruction(instruction);
     }
 
     public int getStepID(){

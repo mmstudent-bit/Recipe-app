@@ -14,7 +14,7 @@ public class RecipeIngredient {
         this.recipeIngredientID = recipeIngredientID;
         this.recipeID = recipeID;
         this.ingredient = ingredient;
-        this.quantity = quantity;
+        this.setQuantity(quantity);
         this.unit = unit;
         this.preperationNote = preperationNote;
     }
